@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Regulamentele Poliției WS-Hood Roleplay, organizate pe categorii.">
+  <title>Poliția WS-Hood — Regulamente</title>
+  <link rel="icon" href="assets/WS-Hood-logo.png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#acasa" aria-label="Poliția WS-Hood, pagina principală">
+      <img src="assets/WS-Hood-logo.png" alt="">
+      <span><strong>WS-HOOD</strong><small>DEPARTAMENTUL DE POLIȚIE</small></span>
+    </a>
+    <nav aria-label="Navigare principală">
+      <a href="#regulamente">Regulamente</a>
+      <a href="#cod-penal">Cod penal</a>
+      <a href="#important">De reținut</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="acasa">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> WS-HOOD ROLEPLAY · POLIȚIE</p>
+        <h1>Regulile clare<br>fac <span>echipa mai puternică.</span></h1>
+        <p class="hero-intro">Găsește rapid regulamentele Poliției, ghidul pentru candidați și categoriile din codul penal.</p>
+        <a class="button button-light" href="#regulamente">Explorează regulamentele <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <div class="mark-ring"><img src="assets/WS-Hood-logo.png" alt=""></div>
+        <span>PROTECT · SERVE · ROLEPLAY</span>
+      </div>
+      <div class="hero-bottom"><span>DOCUMENTAȚIE OFICIALĂ</span><span>WS-HOOD ROLEPLAY</span></div>
+    </section>
+
+    <section class="content-section" id="regulamente">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CENTRUL DE INFORMAȚII</p>
+          <h2>Regulamentele Poliției</h2>
+          <p class="section-intro">Alege categoria potrivită. Fiecare document se deschide într-o prezentare ușor de parcurs.</p>
+        </div>
+        <label class="search-box">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <span class="sr-only">Caută în categorii</span>
+          <input id="search" type="search" placeholder="Caută un regulament..." autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+      </div>
+
+      <div class="filter-list" role="group" aria-label="Filtrează regulamentele">
+        <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">Toate <span>03</span></button>
+        <button class="filter-button" type="button" data-filter="public" aria-pressed="false">Pentru candidați</button>
+        <button class="filter-button" type="button" data-filter="intern" aria-pressed="false">Pentru polițiști</button>
+        <button class="filter-button" type="button" data-filter="penal" aria-pressed="false">Cod penal</button>
+      </div>
+
+      <div class="document-grid" id="document-grid">
+        <article class="document-card" data-category="public" data-search="public candidați recrutare roleplay metagaming powergaming conduită opriri verificări forță integritate testare">
+          <div class="card-top"><span class="card-icon icon-blue" aria-hidden="true">01</span><span class="card-label">GHID PENTRU CANDIDAȚI</span></div>
+          <h3>Regulamentul public</h3>
+          <p>Ce trebuie să știi înainte să aplici și regulile de bază pentru o experiență de roleplay corectă.</p>
+          <div class="tag-list"><span>Recrutare</span><span>Roleplay</span><span>Conduită</span></div>
+          <a class="card-link" href="REGULAMENT-PUBLIC.html">Deschide regulamentul <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="document-card" data-category="intern" data-search="intern polițiști conduită ierarhie patrulare radio interacțiune public opriri controale arestare drepturi forță urmăriri probe integritate rapoarte abateri">
+          <div class="card-top"><span class="card-icon icon-red" aria-hidden="true">02</span><span class="card-label">PENTRU MEMBRII FACȚIUNII</span></div>
+          <h3>Regulamentul intern</h3>
+          <p>Proceduri și responsabilități pentru activitatea zilnică, intervenții și colaborarea în echipă.</p>
+          <div class="tag-list"><span>Proceduri</span><span>Intervenții</span><span>Integritate</span></div>
+          <a class="card-link" href="REGULAMENT-INTERN.html">Deschide regulamentul <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="document-card" data-category="penal" data-search="cod penal infracțiuni rutier ordine publică jaf furt alte infracțiuni droguri arme violență">
+          <div class="card-top"><span class="card-icon icon-gold" aria-hidden="true">03</span><span class="card-label">INFRACȚIUNI ȘI EXEMPLE</span></div>
+          <h3>Codul penal</h3>
+          <p>Fapte grupate pe domenii, fiecare explicată pe scurt și însoțită de un exemplu RP.</p>
+          <div class="tag-list"><span>7 categorii</span><span>Exemple RP</span><span>Fără sancțiuni</span></div>
+          <a class="card-link" href="COD-PENAL.html">Deschide codul penal <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>Nu am găsit regulamente potrivite. Încearcă alt termen.</p>
+    </section>
+
+    <section class="category-section" id="cod-penal">
+      <div class="section-heading category-heading">
+        <div>
+          <p class="eyebrow">COD PENAL · CATEGORII</p>
+          <h2>Infracțiunile, pe scurt</h2>
+          <p class="section-intro">Codul penal este împărțit în șapte domenii, de la reguli rutiere la fapte violente.</p>
+        </div>
+        <a class="text-link" href="COD-PENAL.html">Vezi toate exemplele <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-item" href="COD-PENAL.html?slide=3"><span class="category-number">01</span><span><strong>Rutier</strong><small>Circulație și siguranță</small></span><span class="arrow">↗</span></a>
+        <a class="category-item" href="COD-PENAL.html?slide=4"><span class="category-number">02</span><span><strong>Ordine publică</strong><small>Conduită în spațiul public</small></span><span class="arrow">↗</span></a>
+        <a class="category-item" href="COD-PENAL.html?slide=5"><span class="category-number">03</span><span><strong>Jaf și furt</strong><small>Bunuri și proprietăți</small></span><span class="arrow">↗</span></a>
+        <a class="category-item" href="COD-PENAL.html?slide=6"><span class="category-number">04</span><span><strong>Alte infracțiuni</strong><small>Fapte diverse</small></span><span class="arrow">↗</span></a>
+        <a class="category-item" href="COD-PENAL.html?slide=7"><span class="category-number">05</span><span><strong>Droguri</strong><small>Deținere și trafic</small></span><span class="arrow">↗</span></a>
+        <a class="category-item" href="COD-PENAL.html?slide=8"><span class="category-number">06</span><span><strong>Arme</strong><small>Deținere și folosire</small></span><span class="arrow">↗</span></a>
+        <a class="category-item" href="COD-PENAL.html?slide=9"><span class="category-number">07</span><span><strong>Violență</strong><small>Amenințări și agresiuni</small></span><span class="arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="notice-section" id="important">
+      <div class="notice-icon" aria-hidden="true">i</div>
+      <div><h2>Important de reținut</h2><p>Regulile generale ale serverului, legislația orașului și dispozițiile Staff-ului au prioritate. Consultă întotdeauna versiunea actualizată comunicată de conducerea facțiunii.</p></div>
+      <span class="notice-stamp">WS-HOOD<br>POLIȚIE</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#acasa">WS-HOOD <span>· POLIȚIE</span></a>
+    <span>Documentație pentru comunitatea WS-Hood Roleplay</span>
+    <a href="#acasa">Înapoi sus ↑</a>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
